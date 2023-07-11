@@ -130,3 +130,18 @@ main section{
     width: 300px;
     padding: 80px;
 }
+/* instagram related styles start from here */
+.instagram{
+    width: 100%;
+}
+.instagram-img-container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+.instagram-img{
+    width: 220px;
+}
