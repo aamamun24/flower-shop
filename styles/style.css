@@ -1,0 +1,53 @@
+/* Common shared styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header related styles star from here */
+.header{
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header-content{
+    max-width: 700px;
+    /* margin-bottom: 40px; */    
+    padding-bottom: 50px;
+}
+.header-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.btn{
+    padding: 20px 45px;
+    background-color: #E55473;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+.banner-flower{
+    width: 500px;
+}
