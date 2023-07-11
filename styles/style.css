@@ -41,15 +41,13 @@ body{
 .header-banner{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    align-items: center;
+    gap: 25px;
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
 }
 .header-content{
     max-width: 700px;
-    /* margin-bottom: 40px; */
     padding: 50px 0;
 }
 .header-title{
@@ -92,8 +90,8 @@ main section{
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     padding: 80px 40px 0 40px;
-    width: 250px;
-    height: 320px;
+    width: 240px;
+    height: 300px;
 }
 .flower-description{
     text-align: center;
@@ -105,10 +103,33 @@ main section{
 }
 .flower-bg-blue{
     background-color: rgba(5, 151, 160, 0.15);
-    padding-bottom: ;
+    padding: 80px 40 40px 40px;
 }
 .flower-bg-green{
     background-color: rgba(71, 125, 17, 0.15);;
+}
+/* Support related styles start from here */
+.support{
+    width: 80%;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    border-radius: 8px;
+}
+.support-container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.support-icon{
+    display: block;
+    margin: auto;
+}
+.support-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
 }
 /* Hot deals related styles start from here */
 .hot-deals{
@@ -172,9 +193,6 @@ main section{
     width: 500px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
-}
-.letest-deal-form input[type="email"]:hover{
-    border: none;
 }
 /* footer related styles start from here */
 footer{
