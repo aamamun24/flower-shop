@@ -145,3 +145,34 @@ main section{
 .instagram-img{
     width: 220px;
 }
+/* Latest deals related styles start from here */
+.letest-deal{
+    width: 80%;
+    margin: 125px auto;
+}
+.letest-deal-container{
+    padding: 80px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.letest-deal-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.letest-deal-form input[type="email"]{
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0;
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+.letest-deal-form input[type="email"]:hover{
+    border: none;
+}
