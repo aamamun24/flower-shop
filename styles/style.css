@@ -7,7 +7,20 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    width: 550px;
+    margin: 24px auto;
+}
 /* header related styles star from here */
 .header{
     width: 100%;
@@ -25,7 +38,7 @@ body{
 .header-content{
     max-width: 700px;
     /* margin-bottom: 40px; */    
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 .header-title{
     color: #272727;
@@ -49,5 +62,48 @@ body{
     border: none;
 }
 .banner-flower{
-    width: 500px;
+    width: 450px;
+}
+/* main section related styles */
+main{
+    margin: 0 auto;
+}
+main section{
+    margin-top: 125px;
+}
+/* featured related styles star from here */
+.featured{
+    width: 80%;
+    margin: 130px auto;
+}
+.feature-img-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+.feature-img{
+    /* width: 400px; */
+}
+.flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 80px 40px 0 40px;
+    width: 250px;
+    height: 320px;
+}
+.flower-description{
+    text-align: center;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.flower-bg-blue{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding-bottom: ;
+}
+.flower-bg-green{
+    background-color: rgba(71, 125, 17, 0.15);;
 }
