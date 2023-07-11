@@ -151,6 +151,61 @@ main section{
     width: 300px;
     padding: 80px;
 }
+/* shop section related styles start from here */
+.shop{
+    width: 80%;
+    margin: auto;
+    margin-top: 125px;
+}
+.shop-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.branch{
+    width: 280px;
+    height: 450px;
+    background-color: rgba(229, 84, 115, 0.10);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.branch-title{
+    text-align: center;
+    padding: 25px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+.branch-img{
+    width: 80%;
+    height: 40%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.branch-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px;
+}
+.btn-branch{
+    padding: 15px 25px;
+    background-color: #E55473;
+    color:  #FFF;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+
+
+
 /* instagram related styles start from here */
 .instagram{
     width: 100%;
