@@ -21,6 +21,18 @@ body{
     width: 550px;
     margin: 24px auto;
 }
+.btn{
+    padding: 20px 45px;
+    background-color: #E55473;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+.primary-color{
+    color: #E55473;
+}
 /* header related styles star from here */
 .header{
     width: 100%;
@@ -51,15 +63,6 @@ body{
     font-weight: 400;
     line-height: 30px;
     margin: 20px 0;
-}
-.btn{
-    padding: 20px 45px;
-    background-color: #E55473;
-    color:  #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 8px;
-    border: none;
 }
 .banner-flower{
     width: 450px;
@@ -106,4 +109,24 @@ main section{
 }
 .flower-bg-green{
     background-color: rgba(71, 125, 17, 0.15);;
+}
+/* deals related styles start from here */
+.deals{
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.deal-content{
+    padding: 50px;
+}
+.deal-content button{
+    display: block;
+    margin: auto;
+}
+.deal-img{
+    width: 300px;
+    padding: 80px;
 }
